@@ -23,7 +23,14 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
     </properties>
-
+<-- sonar integration -->
+  <properties>
+  <sonar.organization>81062</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.projectkey>binary</sonar.projectkey>
+  <sonar.login5818d643cf9043c7272f3e23bf2eee8ea56f6d13</sonar.login>
+           
+</properties>       
     <dependencies>
         <!-- Spring Boot Web -->
         <dependency>
